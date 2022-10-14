@@ -20,8 +20,8 @@ const sidebar = {
 		"text": "布局"
 	}]
 }
-const config = { 
-    themeConfig: { sidebar, }
+const config = {
+	themeConfig: { sidebar, }
 }
 
 export default config
