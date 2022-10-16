@@ -18,7 +18,6 @@ import Test from './components/testTsx'
   <Test></Test>
 </template>
 
-
 <style scoped>
 .logo {
   height: 6em;
