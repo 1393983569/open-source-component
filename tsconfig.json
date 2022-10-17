@@ -21,7 +21,7 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "src/vue.d.ts"
+    "docs/.vitepress/theme"
   ],
   "references": [
     {
