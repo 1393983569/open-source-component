@@ -1,0 +1,62 @@
+// button/src/button.scss
+
+.s-btn {
+    // 布局样式
+    @apply inline-flex items-center justify-center;
+
+    // 元素属性
+    @apply border-[1px] border-solid border-transparent h-[28px] py-0 px-[20px] bg-transparent;
+    border-radius: $s-border-radius;
+
+    // 文本属性
+    @apply outline-0 leading-normal whitespace-nowrap cursor-pointer;
+
+    // 文字样式
+    font-size: $s-font-size-md;
+
+    // 其他样式
+    transition: background-color $s-animation-duration-slow $s-animation-ease-in-out-smooth,
+        border-color $s-animation-duration-slow $s-animation-ease-in-out-smooth,
+        color $s-animation-duration-slow $s-animation-ease-in-out-smooth;
+
+    // 主要按钮
+    &.s-btn--primary {
+        color: $s-light-text;
+        background-color: $s-primary;
+
+        &:hover,
+        &:focus {
+            background-color: $s-primary-hover;
+        }
+
+        &:active {
+            background-color: $s-primary-active;
+        }
+    }
+
+    // 次要按钮
+    &.s-btn--secondary {
+        color: $s-text;
+        background-color: $s-block;
+        border-color: $s-line;
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: $s-form-control-line-active;
+            color: $s-brand-active;
+        }
+    }
+
+    // 文字按钮
+    &.s-btn--text {
+        padding: 0;
+        color: $s-brand-active;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $s-brand-active-focus;
+        }
+    }
+}

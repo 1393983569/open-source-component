@@ -1,11 +1,11 @@
 <template>
     <!-- <h1>{{ msg }}</h1> -->
-    <s-button>button</s-button>
+    <s-button type="primary">确定</s-button>
 </template>
 
 <script setup lang="ts">
 // import { ref } from 'vue'
-// import SButton from '../button/src/Button'
+import SButton from '../button/src/Button'
 // defineProps<{ msg: string }>()
 
 // const count = ref(0)
