@@ -1,4 +1,5 @@
 // button/src/button.scss
+@import '../../style/variable.scss';
 
 .s-btn {
     // 布局样式
@@ -9,7 +10,7 @@
     border-radius: $s-border-radius;
 
     // 文本属性
-    @apply outline-0 leading-normal whitespace-nowrap cursor-pointer;
+    @apply outline-none leading-normal whitespace-nowrap cursor-pointer;
 
     // 文字样式
     font-size: $s-font-size-md;
